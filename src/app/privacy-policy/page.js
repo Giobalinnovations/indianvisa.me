@@ -1,85 +1,143 @@
+export const metadata = {
+  title: 'Privacy Policy - Indian Visa ME',
+  description:
+    'Our commitment to protecting your privacy and personal information',
+  alternates: {
+    canonical: '/privacy-policy',
+  },
+};
+
 const page = () => {
   return (
     <div className="container px-4 pb-12 bg-white lg:pt-24 lg:py-10 lg:px-0 md:pt-28 md:pb-0 pt-28">
-      <div className="mx-auto ">
-        <h1 className="mb-3 text-4xl font-semibold lg:py-6">Privacy Policy</h1>
-        <p className="my-2 text-base font-medium leading-relaxed text-justify">
-          Welcome to Privacy Policy of India-TravelServices. We value your
-          privacy and want to be transparent about how we collect, use, and
-          share your information. This policy applies to our website,
-          https://www.india-travelservices.com, and all our products and
-          services.{' '}
+      <div className="mx-auto">
+        <h1 className="mb-6 text-4xl font-bold text-gray-900 lg:py-6">
+          Privacy Policy
+        </h1>
+        <p className="my-4 text-lg leading-relaxed text-gray-700">
+          At Indian Visa ME, we uphold the highest standards of privacy
+          protection, offering our distinguished clients an exceptional level of
+          confidentiality and security. This premium privacy policy outlines our
+          sophisticated approach to safeguarding your personal information
+          throughout your visa journey.
         </p>
       </div>
 
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-2 text-lg font-bold">
-          Personal Identification Information
-        </h3>
-        <p className="my-2 mb-5 text-base font-medium leading-relaxed text-justify">
-          We may collect personal information from you when you visit our site,
-          register, place an order, subscribe to our newsletter, or interact
-          with us in any way. This information includes your name, email
-          address, mailing address, phone number, and credit card details. You
-          can choose to provide this information voluntarily. However, if you
-          decide not to share it, you may not be able to access certain features
-          or services.
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Premium Information Collection
+        </h2>
+        <div className="mt-4 space-y-4">
+          <h3 className="text-xl font-medium text-gray-800">
+            Essential Documentation
+          </h3>
+          <p className="text-gray-700 leading-relaxed">
+            Our exclusive service requires the following information:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>Personal identification and biographical details</li>
+            <li>Premium contact information</li>
+            <li>Luxury travel arrangements</li>
+            <li>Exclusive payment information</li>
+            <li>Personalized correspondence history</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Exclusive Data Utilization
+        </h2>
+        <div className="mt-4 space-y-4">
+          <p className="text-gray-700 leading-relaxed">
+            Your information is handled with utmost care for:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>Personalized visa application processing</li>
+            <li>VIP customer service delivery</li>
+            <li>Priority status updates</li>
+            <li>Service excellence enhancement</li>
+            <li>Compliance with premium standards</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Elite Security Protocols
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          We protect your privacy through:
+        </p>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-gray-700">
+          <li>Military-grade encryption systems</li>
+          <li>Premium data storage facilities</li>
+          <li>24/7 security surveillance</li>
+          <li>Elite staff confidentiality training</li>
+          <li>Privileged access controls</li>
+        </ul>
+      </div>
+
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Selective Information Sharing
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          Your information is shared exclusively with:
+        </p>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-gray-700">
+          <li>Senior Indian visa authorities</li>
+          <li>Elite service partners</li>
+          <li>Premium payment processors</li>
+          <li>Required regulatory bodies</li>
+        </ul>
+      </div>
+
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Premium Client Privileges
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          As our esteemed client, you enjoy the right to:
+        </p>
+        <ul className="mt-4 list-disc pl-6 space-y-2 text-gray-700">
+          <li>Priority access to your information</li>
+          <li>Immediate data modifications</li>
+          <li>Exclusive communication preferences</li>
+          <li>Expedited data removal requests</li>
+          <li>Premium data portability services</li>
+        </ul>
+      </div>
+
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Advanced Cookie Management
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          Our premium platform utilizes sophisticated cookie technology to
+          deliver a personalized experience. You have complete control over
+          cookie preferences through advanced browser settings.
         </p>
       </div>
 
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-5 text-lg font-bold">
-          Non-Personal Identification Information
-        </h3>
-        <p className="my-2 text-base font-medium text-justify">
-          When you interact with our site, we may collect non-personal
-          information such as your browser name, computer type, and technical
-          details about your connection. This helps us improve our site and
-          enhance your experience.
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Policy Excellence
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          This premium privacy policy undergoes regular expert review to ensure
+          compliance with international standards and to maintain our commitment
+          to service excellence.
         </p>
       </div>
 
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-2 text-lg font-bold">Web Browser Cookies</h3>
-        <p className="my-2 text-base font-medium leading-relaxed text-justify">
-          We use cookies to enhance your browsing experience. These cookies are
-          stored on your hard drive and help us remember certain information
-          about you. You can choose to disable cookies in your web browser
-          settings, but please note that this may affect the functionality of
-          our site.
-        </p>
-      </div>
-
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-5 text-lg font-bold">Protecting Your Information</h3>
-        <p className="my-2 mb-5 text-base font-medium leading-relaxed text-justify">
-          We collect personal information and data from you only when it is
-          necessary to provide our services or for legal purposes. The
-          information we collect may include your name, contact information, and
-          other details related to the services we provide. We do not share your
-          personal information with third parties unless we have your consent or
-          are required by law to do so. We may use your personal information to
-          improve our services, communicate with you, and provide you with
-          relevant information that may interest you. We will never sell your
-          personal information to third parties.
-        </p>
-      </div>
-
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-2 text-lg font-bold">Sharing Your Information</h3>
-        <p className="my-2 text-base font-medium leading-relaxed text-justify">
-          We do not sell, trade, or rent your personal information to third
-          parties. We may share generic aggregated demographic information that
-          does not identify you personally.{' '}
-        </p>
-      </div>
-      <div className="mx-auto  mt-7">
-        <h3 className="mt-2 text-lg font-bold">Changes to This Policy</h3>
-        <p className="my-2 text-base font-medium leading-relaxed text-justify">
-          We may update this Privacy Policy from time to time. Any changes will
-          be posted on our website, and it is your responsibility to review the
-          policy periodically. If you have any questions or concerns about our
-          Privacy Policy, please contact us at info@traveltoindiaservices.com
+      <div className="mx-auto mt-8">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Dedicated Support
+        </h2>
+        <p className="mt-4 text-gray-700 leading-relaxed">
+          For privacy-related inquiries or to exercise your privileges, please
+          contact our dedicated privacy team at privacy@indianvisa.me
         </p>
       </div>
     </div>
