@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Banner = () => {
   return (
-    <div className="relative min-h-[600px] mt-16">
+    <div className="relative min-h-[600px] md:min-h-[calc(100vh-5rem)] mt-16">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -14,33 +14,33 @@ const Banner = () => {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/95 via-gray-900/90 to-gray-900/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/95 via-gray-900/90 to-gray-900/80 md:from-gray-900/90 md:via-gray-900/85 md:to-gray-900/75"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent"></div>
       </div>
 
       {/* Content */}
-      <div className="relative container mx-auto px-4 h-full flex items-center">
+      <div className="relative container mx-auto px-4 md:px-6 h-full flex items-center py-12 md:py-20">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center space-x-2 mb-8">
-            <span className="w-12 h-px bg-amber-400/50"></span>
-            <span className="text-amber-400/90 text-sm tracking-[0.2em] uppercase">
+          <div className="inline-flex items-center space-x-2 mb-6 md:mb-8">
+            <span className="hidden md:block w-12 h-px bg-amber-400/50"></span>
+            <span className="text-amber-400/90 text-xs md:text-sm tracking-[0.2em] uppercase">
               Premium Service
             </span>
-            <span className="w-12 h-px bg-amber-400/50"></span>
+            <span className="hidden md:block w-12 h-px bg-amber-400/50"></span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-light text-white mb-6 leading-tight tracking-wide">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white mb-4 md:mb-6 leading-tight tracking-wide">
             Exclusive Indian Visa <br />
             <span className="text-amber-400">Processing Service</span>
           </h1>
 
-          <p className="text-lg text-gray-300 mb-12 leading-relaxed max-w-2xl tracking-wide">
+          <p className="text-base md:text-lg text-gray-300 mb-8 md:mb-12 leading-relaxed max-w-2xl tracking-wide">
             Experience unparalleled excellence in visa processing with our
             premium services. We ensure a sophisticated and seamless journey for
             your Indian visa requirements.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-6 mb-12 md:mb-16">
             <Link
               href="/visa/step-one"
               className="group inline-flex items-center justify-center"
@@ -53,16 +53,15 @@ const Banner = () => {
                 </span>
               </span>
             </Link>
-            <Link
+            {/* <Link
               href="/track-application"
               className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-white border border-amber-400/30 hover:bg-amber-400/10 transition-colors duration-300 tracking-wider"
             >
               Track Application Status
-            </Link>
+            </Link> */}
           </div>
 
-          {/* Luxury Trust Indicators */}
-          <div className="grid grid-cols-3 gap-12 pt-12 border-t border-amber-400/20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-12 pt-8 md:pt-12 border-t border-amber-400/20">
             <div>
               <div className="flex items-center space-x-4 mb-3">
                 <div className="w-10 h-10 flex items-center justify-center rounded-full bg-amber-400/10 border border-amber-400/30">
@@ -141,10 +140,9 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Luxury Decorative Elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-400/20 to-transparent"></div>
-      <div className="absolute top-1/4 right-1/4 w-px h-32 bg-gradient-to-b from-transparent via-amber-400/20 to-transparent"></div>
-      <div className="absolute bottom-1/4 left-1/4 w-px h-32 bg-gradient-to-b from-transparent via-amber-400/20 to-transparent"></div>
+      <div className="hidden md:block absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-400/20 to-transparent"></div>
+      <div className="hidden md:block absolute top-1/4 right-1/4 w-px h-32 bg-gradient-to-b from-transparent via-amber-400/20 to-transparent"></div>
+      <div className="hidden md:block absolute bottom-1/4 left-1/4 w-px h-32 bg-gradient-to-b from-transparent via-amber-400/20 to-transparent"></div>
     </div>
   );
 };

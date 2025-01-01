@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         <FormProvider>
           <ReactQueryProvider>
             <div className="min-h-screen flex flex-col">
-              <div className="bg-gradient-to-r from-primary via-secondary to-accent">
+              <div className="z-50 bg-gradient-to-r from-primary via-secondary to-accent">
                 <div className="bg-white/10 backdrop-blur-sm">
                   <Header />
                 </div>
